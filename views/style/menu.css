@@ -127,6 +127,12 @@ form#login-form {
     padding: 30px; /* Adicionado */
 }
 
+.login-text{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .politicas{
     margin: auto;
     max-width: 90%;
@@ -157,4 +163,65 @@ form#login-form {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+}
+
+
+@media (max-width: 600px){
+    
+    
+    .logo {
+        max-width: 270px; /* Diminui o tamanho da logo */
+    }
+
+    .logo-small{
+        width: 40px;
+        margin-bottom: 30px;
+    }
+
+    .login{
+        margin: auto;
+        max-width: 85%;
+        height: auto; /* Ajustado */
+        margin-top: 5%; /* Ajustado */
+        margin-bottom: 5%; /* Ajustado */
+        border: solid 3px rgba(255, 255, 255, 0.80);
+        border-radius: 40px;
+        background-color: rgba(0, 0, 0, 0.60);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px; /* Adicionado */
+    }
+
+    .login-text{
+        padding: 20px;
+        padding-left: 0px;
+    }
+
+    .col-6{
+        width: fit-content;
+    }
+
+    .f-16{
+        font-size: 12px;
+    }
+    .f-20{
+        font-size: 20px;
+    }
+    .f-24{
+        font-size: 16px;
+    }
+    .f-32{
+        font-size: 20px;
+    }
+    .f-40{
+        font-size: 40px;
+    }
+    .f-48{
+        font-size: 48px;
+    }
+    .f-64{
+        font-size: 64px;
+    }
+    
 }

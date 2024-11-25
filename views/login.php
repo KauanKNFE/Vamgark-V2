@@ -23,7 +23,7 @@ if (isset($_SESSION['usuario_id'])) {
 <body class="menu">
 
 <div class="login p-5">
-    <div class="col-6 p-4">
+    <div class="col-6 login-text">
         <div>
             <img class="logo-small" src="../img/vamgark-icon.png" alt="Logo Vamgark">
         </div>
@@ -66,6 +66,7 @@ if (isset($_SESSION['usuario_id'])) {
     </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="../models/login.js"></script> 
 </body>
 </html>
