@@ -177,7 +177,7 @@ if (isset($_SESSION['usuario_id'])){
         <p>Astúcia é seu segredo. Visam o sucesso, com inteligência afiada e um olhar estratégico que os destaca.</p>
     </div>
   </div>
-  <div class="container" style="flex-direction: column;">
+  <div class="container" style="flex-direction: column; margin: 0px 20px;">
     <h1>Qual dessas é mais como a <a id="dourado">SUA</a> essência?</h1>
     <button class="botao">DESCUBRA JÁ</button>
   </div>

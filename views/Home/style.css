@@ -408,6 +408,9 @@ h1{
     .container{
       flex-wrap: wrap;
     }
+    .quiz-container{
+      width: 100%;
+    }
     .centralizado{
       padding: 20px;
     }
